@@ -1,0 +1,64 @@
+{
+  "name": "3-agent-collab-lab",
+  "version": "1.0.0",
+  "description": "Antigravity, Claude Code, Codex 3개 에이전트의 협업 패턴을 구현하는 실험실",
+  "author": {
+    "name": "ninestonelee",
+    "email": "ninestone.lee@gmail.com",
+    "url": "https://github.com/ninestonelee"
+  },
+  "license": "MIT",
+  "keywords": [
+    "multi-agent",
+    "collaboration",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "workflow-automation",
+    "agent-framework"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninestonelee/3-agent-collab-lab-0513.git"
+  },
+  "homepage": "https://github.com/ninestonelee/3-agent-collab-lab-0513",
+  "bugs": {
+    "url": "https://github.com/ninestonelee/3-agent-collab-lab-0513/issues"
+  },
+  "type": "skill",
+  "category": "collaboration",
+  "tags": [
+    "agent-collaboration",
+    "multi-agent",
+    "workflow-automation",
+    "framework"
+  ],
+  "requires": {
+    "claude-code": ">=1.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "capabilities": {
+    "agents": [
+      "antigravity",
+      "claude-code",
+      "codex"
+    ],
+    "features": [
+      "context-preservation",
+      "state-management",
+      "workflow-automation",
+      "multi-agent-handoff"
+    ]
+  },
+  "metadata": {
+    "created": "2026-05-13T00:00:00Z",
+    "updated": "2026-05-17T00:00:00Z",
+    "maintainer": "ninestonelee",
+    "status": "active",
+    "maturity": "beta"
+  }
+}
